@@ -1,6 +1,13 @@
-h1{color: blue}
+h1{color: black}
 /* esto es un comentario */
 summary {color: red}
 body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg")
 /* ver en youtube fuentes (units) y como manejarlas*/
+ #"ModeloDeCaja" {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+   
 
