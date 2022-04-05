@@ -18,14 +18,23 @@ body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \
   padding: 50px;
   margin: 20px;
 }
-header{
+header { background-color: black;
   list-style-type: none ;
   position: sticky;
   position: -webkit-sticky;
-  top:0% ;
+  top:0%;
+  height: 10%;
 }
 menu >a > li { 
-  display: inline
+  display: inline;
+  
+  right: 5px;
+}
+menu { float: right;}
+
+#logo{
+  width: 5%;
+  display: inline;
 
 }
    
