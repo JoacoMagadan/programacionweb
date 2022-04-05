@@ -1,7 +1,11 @@
 h1{color: #00C897}
 /* esto es un comentario */
 summary {color: #00C897}
-body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg")
+body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
 /* ver en youtube fuentes (units) y como manejarlas*/}
 #Entrada-a-la-ventura{width: 10%; height:10%}
 #mail {width:5%; height: 10%;
@@ -14,17 +18,14 @@ body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \
   padding: 50px;
   margin: 20px;
 }
-menu{
+header{
   list-style-type: none ;
   position: sticky;
   position: -webkit-sticky;
   top:0% ;
-  
-
-
-
-
-
+}
+menu >a > li { 
+  display: inline
 
 }
    
