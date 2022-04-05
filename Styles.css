@@ -2,8 +2,9 @@ h1{color: #00C897}
 /* esto es un comentario */
 summary {color: #00C897}
 body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg")
-/* ver en youtube fuentes (units) y como manejarlas*/
-#"ModeloDeCaja" {
+/* ver en youtube fuentes (units) y como manejarlas*/}
+#entrada-a-la-ventura{width:10%; height: 10%}
+#modelodecaja{
   width: 300px;
   border: 10px solid green;
   padding: 50px;
