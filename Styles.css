@@ -21,7 +21,8 @@ body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \
   padding: 50px;
   margin: 20px;
 }
-header { background-color: #EFDED5;
+
+header { background-color:#EFDED5;
   list-style-type: none ;
   position: sticky;
   position: -webkit-sticky;
@@ -43,15 +44,21 @@ menu { float: right;}
 
   color: #704116;
   text-align: center;
+  font-size: 700%;
+  font-family: 'Beau Rivage', cursive;
 
 }
 #subtitulo {
   color: #704116;
   text-align: center;
+  font-size: 300%;
+  font-family: 'Open Sans', sans-serif;
 }
 #mision {
-  color: #704116;
+  color:#EFDED5;
   text-align: center;
+  font-size: 300%;
+  font-family: 'Beau Rivage', cursive; 
 }
 
 
