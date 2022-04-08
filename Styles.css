@@ -1,11 +1,13 @@
-h1{color: #00C897}
+h1{color: #704116}
 /* esto es un comentario */
-summary {color: #00C897}
-body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg") ;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
-  height: 100vh;
+summary {color: #704116}
+
+body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg"), 
+    url("./images/atardecer\ ovejas\ 2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    margin: 0;
+    height: 100vh;
 /* ver en youtube fuentes (units) y como manejarlas*/}
 #Entrada-a-la-ventura{width: 10%; height:10%}
 #mail {width:5%; height: 10%;
@@ -13,12 +15,13 @@ body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \
   bottom:30px ; 
   right:20px  }
 #ModeloDeCaja{
+  background-color: #EFDED5;
   width: 300px;
-  border: 10px solid green;
+  border: 10px solid #704116;
   padding: 50px;
   margin: 20px;
 }
-header { background-color: black;
+header { background-color: #EFDED5;
   list-style-type: none ;
   position: sticky;
   position: -webkit-sticky;
@@ -35,7 +38,20 @@ menu { float: right;}
 #logo{
   width: 5%;
   display: inline;
+}
+#titulo{
+
+  color: #704116;
+  text-align: center;
 
 }
-   
+#subtitulo {
+  color: #704116;
+  text-align: center;
+}
+#mision {
+  color: #704116;
+  text-align: center;
+}
+
 
