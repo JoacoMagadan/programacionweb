@@ -7,13 +7,18 @@ body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \
     background-position: top left,center center,bottom right;
     background-size: 100%;
     background-repeat: no-repeat,no-repeat, repeat;
+    height: 100vh;
     
-/* ver en youtube fuentes (units) y como manejarlas*/}
+    
+/* fuentes (units), CON BACKGROUND POSITION  DE ESTA MANERA CADA IMAGEN QUEDA EN UNA POSITION ESPECIFICA
+ Y CON BACKGROUND RREAPEAT HACES QUE NO SE SUPERPONGAN
+ CON HEIGHT 100VH SE ADAPTA A CADA TIPO DE PANTALLLA (CELU, COMPU) */}
 #Entrada-a-la-ventura{width: 10%; height:10%}
 #mail {width:5%; height: 10%;
   position: fixed; 
   bottom:30px ; 
   right:20px  }
+  /* CON FIXED SE FIJA A LA PANTALLA */
 #ModeloDeCaja{
   background-color: #EFDED5;
   width: 300px;
@@ -21,6 +26,7 @@ body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \
   padding: 50px;
   margin: 20px;
   font-family: 'Open Sans', sans-serif;;
+  /* CON FONT FAMILY SE PONE UNA FUENTE NUEVA.*/
 }
 #ModeloDeCaja2{
   background-color: #EFDED5;
@@ -37,6 +43,7 @@ header { background-color:#EFDED5;
   position: -webkit-sticky;
   top:0%;
   height: 75px;
+  /* STICKY ES ENTRE POSICION RELATIVA Y FIJA*/
 }
 #col-der{
   width: 95%;
@@ -54,7 +61,13 @@ menu >a > li {
   ;
 }
 menu{text-align: center;}
+/*display : inline-block
 
+El elemento aparece en línea pero se comporta como un elemento block. 
+Un elemento inline-block resulta muy útil cuando queremos dar una anchura al elemento. 
+En el siguiente ejemplo la anchura del elemento inline-block es de 150px .
+Cuando un elemento inline se encuentra entre dos elementos block, 
+el elemento inline se comporta como un block anónimo, de mínima anchura */
 #logo{
   width: 75px;
   display: inline;
