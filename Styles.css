@@ -2,12 +2,12 @@ h1{color: #704116}
 /* esto es un comentario */
 summary {color: #704116}
 
-body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg"),
+/*body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg"),
     url("./images/atardecer\ ovejas\ 2.jpeg"), url("./images/foto\ tranquera\ 3.jpg");
     background-position: top left,center center,bottom right;
     background-size: 100%;
     background-repeat: no-repeat,no-repeat, repeat;
-  } 
+  } */
     
     /*height: 100vh;
     /* height: 100vh*, se rompe ´por el tipo de fondo/
@@ -17,12 +17,12 @@ body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \
 /* fuentes (units), CON BACKGROUND POSITION  DE ESTA MANERA CADA IMAGEN QUEDA EN UNA POSITION ESPECIFICA
  Y CON BACKGROUND RREAPEAT HACES QUE NO SE SUPERPONGAN
  CON HEIGHT 100VH SE ADAPTA A CADA TIPO DE PANTALLLA (CELU, COMPU) */
- /*body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg");
-    background-color: #704116;
+ body{background-image:url("./images/WhatsApp\ Image\ 2022-01-11\ at\ 17.54.02\ \(7\).jpeg");
+  background-color: #876A57!important ;
     background-size: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-}*/
+}
 
 #Entrada-a-la-ventura{width: 10%; height:10%}
 #mail {width:5%; height: 10%;
