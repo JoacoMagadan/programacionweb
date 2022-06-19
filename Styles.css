@@ -30,23 +30,37 @@ summary {color: #704116}
   bottom:30px ; 
   right:20px  }
   /* CON FIXED SE FIJA A LA PANTALLA */
-#ModeloDeCaja{
+#ModeloDeCaja{display: flex;
+  font-size: 400%;
+  justify-content: center;
   background-color: #EFDED5;
-  width: 300px;
+  width: 100%;
   border: 10px solid #704116;
   padding: 50px;
   margin: 20px;
-  font-family: 'Open Sans', sans-serif;;
-  /* CON FONT FAMILY SE PONE UNA FUENTE NUEVA.*/
+  font-family: 'Beau Rivage', cursive;
 }
-#ModeloDeCaja2{
-  background-color: #EFDED5;
-  width: 250px;
-  border: 10px solid #704116;
-  padding: 50px;
-  margin: 20px;
-  font-family: 'Open Sans', sans-serif;
+#colp1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
+#colp2{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+#colp3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+#rowp {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 
 header { background-color:#EFDED5;
@@ -133,29 +147,48 @@ el elemento inline se comporta como un block anónimo, de mínima anchura */
   font-size: 300%;
   font-family: 'Beau Rivage', cursive; 
 }
-#nuestrosclientes{
-  display: flex;
-  justify-content: center;
+#sobrenosotros{ 
+  text-align:center;
+  font-size: 400%;
+  font-family: 'Beau Rivage', cursive;
+}
+#textoSN{ text-align:center;
+  font-size: 170%;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+#ModeloDeCaja2{
   background-color: #EFDED5;
-  width: 300px;
+  width: 100%;
   border: 10px solid #704116;
   padding: 50px;
   margin: 20px;
-  font-family: 'Open Sans', sans-serif;;
+}
+#nuestrosclientes{
+  display: flex;
+  font-size: 400%;
+  justify-content: center;
+  background-color: #EFDED5;
+  width: 100%;
+  border: 10px solid #704116;
+  padding: 50px;
+  margin: 20px;
+  font-family: 'Beau Rivage', cursive;;
 /*color: #EFDED5;
 text-align: center;
 font-size: 300% ;
-font-family: 'Open Sans', sans-serif;*/
+font-family: 'Beau Rivage', cursive;*/
 }
 #Somosparte{
   display: flex;
   justify-content: center;
+  font-size: 400%;
   background-color: #EFDED5;
-  width: 300px;
+  width: 100%;
   border: 10px solid #704116;
   padding: 50px;
   margin: 20px;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Beau Rivage', cursive;;
 /*color: #EFDED5;
 text-align: center;
 font-size: 300% ;
