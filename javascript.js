@@ -100,4 +100,49 @@ localStoragesetitem('name',valor);}
 <script src="localstorage.js>
 wifislax
 dev ops
-+ 
+// getELementById(): Le doy un elemento HTML y me modifica el content del mismo.
+document.getElementById("elemento").content = "new value"
+JS changes the value(content) of the src (source) attribute of an <img> tag:
+both with style.fontsize, display or others CSS contents
+los scripts externos son practicos cuando se usa el mismo codigo en muchas pag web distintas
+los archivos Javascript tienen extensión de archivo: .jv
+Para usar una secuencia de comandos externa, coloque el nombre del archivo de secuencia de comandos en el src atributo(fuente) de una <script> etiqueta:
+<script src="myScript.js"></script> en <head or <body>
+document.write(""+"")
+window.alert("aviso al usuario")
+A computer program is a list of "instructions" to be "executed" by a computer.
+
+In a programming language, these programming instructions are called statements.
+
+A JavaScript program is a list of programming statements.
+let a, b, c;  // Declare 3 variables
+a = 5;        // Assign the value 5 to a
+b = 6;        // Assign the value 6 to b
+c = a + b;    // Assign the sum of a and b to c
+let: declares a block variable
+var: declares a variable
+const declare a block contant
+if, switch(Marks a block of statements to be executed in different cases)
+for: marks a block of staments to ve executed in a loop
+funcion/ return: exits a funtion
+try: 
+JS values:
+Literals:
+Numbers, strings
+Let, var, const
+operators: (+,-,*,/,=)
+blocks: {}
+Contant Arrays:
+// You can create a constant array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// You can change an element:
+cars[0] = "Toyota";
+
+// You can add an element:
+cars.push("Audi");
+functions:
+function name(parameter1, parameter2, parameter3) {
+  // code to be executed}
+
+
