@@ -32,14 +32,6 @@ header { background-color:#EFDED5;
   height: 75px;
   /* STICKY ES ENTRE POSICION RELATIVA Y FIJA*/
 }
-menu >a > li { 
-  display: inline;
-  font-size: 150%;
-  font-family: 'Open Sans', sans-serif;
-  color:#704116
-  ;
-}
-menu{text-align: center;}
 
 #col-der{
   width: 95%;
@@ -49,14 +41,8 @@ menu{text-align: center;}
   width: 5%;
   float:left;
 }
-#logo{
-  width: 75px;
-  display: inline;
-}
-#Entrada-a-la-ventura{width: 10%; 
-  height: 10%;
-}
 
+#Entrada-a-la-ventura{width: 10%; height:10%}
 #mail {width:5%; height: 10%;
   position: fixed; 
   bottom:30px ; 
@@ -93,7 +79,14 @@ menu{text-align: center;}
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
 }
-
+menu >a > li { 
+  display: inline;
+  font-size: 150%;
+  font-family: 'Open Sans', sans-serif;
+  color:#704116
+  ;
+}
+menu{text-align: center;}
 /*display : inline-block
 
 El elemento aparece en línea pero se comporta como un elemento block. 
@@ -101,7 +94,11 @@ Un elemento inline-block resulta muy útil cuando queremos dar una anchura al el
 En el siguiente ejemplo la anchura del elemento inline-block es de 150px .
 Cuando un elemento inline se encuentra entre dos elementos block, 
 el elemento inline se comporta como un block anónimo, de mínima anchura */
+#logo{
+  width: 75px;
+  display: inline;
 
+}
 #ModeloDeCaja{display: flex;
   font-size: 400%;
   justify-content: center;

@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 
-<html><head><title>Ejemplo aprenderaprogramar.com</title><meta charset="utf-8">
+<html><head><title>Contactanos</title><meta charset="utf-8">
 
 <style type="text/css"> label{display:block;margin:5px;}</style>
+<link rel="stylesheet" href="./forms.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<header>
+    <span id="col-izq"> <img id="logo" src="./images/Mesa de trabajo 3.png" alt="" > </span>
+    <span id="col-der"> 
+        <menu>
+           <a link rel="forms" href="" style="text-decoration: none;"><li>Home</li></a>
+           <a href="http://wa.me/+5492923566198"> <li>Contactanos por Wathsapp</li></a>
+           <a href=> <li> </li></a>
+        
+        </menu>
+    </span>
+    
+</header>
 
-<script type="text/javascript">
+<body><div id="cabecera"><h2 class="titulos">Conoce nuestros productos</h2></div>
+<div id="lista-productos" class="subtitulos">
+        <details><summary>Productos agricolas</summary>
+        <li>Cebada</li><br>
+        <li>Trigo Candeal, Pan y Kamut</li><br>
+        <li>Centeno</li><br>
+        <li>Avena</li><br>
+        <li>Mijo</li><br>
+        <li>Girasol</li><br>
+        <li>Lentejas y arvejas</li><br>
+        </details>
+</div>
+<div id="lista-ganaderia" class="subtitulos">
+    <details><summary>Productos Ganaderos</summary>
+    <li>Invernada</li><br>
+    <li>Recria</li><br>
+    <li>Novillos</li>
+    </details>
+</div>
 
- window.onload = function () {             
-     var ejemplo = document.getElementById('ejemplo');
-     ejemplo.addEventListener("click", ejecutarEjemplo);         }
-function ejecutarEjemplo () {
 
-var formularios = document.forms; alert('El número de formularios en el documento es: '+formularios.length);        }
+<form name="formulario" action="mmagadan@itba.edu.ar" method="post" enctype="text/plain"></form>
+<h2 class="titulos">Formulario de contacto</h2>
 
-</script></head>
+<label class="labelform">Nombre:<input class="cuadroDeTexto" type="text" name="nombre" /></label><br>
 
-<body><div id="cabecera"><h2>Cursos aprenderaprogramar.com</h2><h3>Ejemplos JavaScript</h3></div>
 
-<div style="color:blue; margin:20px;" id ="ejemplo">Pulsa aquí</div>
+<label class="labelform">Apellido:<input class="cuadroDeTexto" type="text" name="apellido" /></label><br>
 
-<form name ="formularioContacto" method="get" action="accion1.html">
+<label class="labelform">Motivo<input class="cuadroDeTexto" type="text" name="motivo" /></label><br>
 
-<h2>Formulario de contacto</h2>
+<label class="labelform">Detalle<input class="cuadroDeTexto" type="text" name="detalle" /></label><br>
 
-<label>Nombre:<input id="nombreFormContacto" type="text" name="nombre" /></label>
-
-<label>Apellidos:<input id="apellidosFormContacto" type="text" name="apellidos" /></label>
-
-<label><input id ="botonEnvio1" type="submit" value="Enviar"></label>
-
-</form>
-
-<form name ="formularioReclamacion" method="get" action="accion2.html">
-
-<h2>Formulario de Preguntas</h2>
-
-<label>Motivo reclamación:<input id="motivoFormReclama" type="text" name="motivo" /></label>
-
-<label>Fecha del hecho:<input id="fechaFormReclama" type="text" name="fecha" /></label>
-
-<label><input id="botonEnvio2" type="submit" value="Enviar"></label>
+<label><input id="botonEnvio" type="submit" value="Enviar"></label>
 
 </form>
 
