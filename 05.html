@@ -17,8 +17,8 @@
     <span id="col-der"> 
         <menu>
            <a link rel="forms" href="index.html" style="text-decoration: none;"><li>Home</li></a>
-           <a href="http://wa.me/+5492923566198"> <li>Contactanos por Wathsapp</li></a>
-           <a href=> <li> </li></a>
+           <a href="http://wa.me/+5492923566198"style="text-decoration: none;"> <li>Contacto</li></a>
+           <a href="index.html#ModeloDeCaja2" style="text-decoration: none;"> <li>Sobre nosotros  </li></a>
         
         </menu>
     </span>
@@ -26,7 +26,7 @@
 </header>
 
 <body><div id="cabecera"><h2 class="titulos">Conoce nuestros productos</h2></div>
-<div id="lista-productos" class="subtitulos">
+<div id="listaProductos" class="subtitulos">
         <details><summary>Productos agricolas</summary>
         <li>Cebada</li><br>
         <li>Trigo Candeal, Pan y Kamut</li><br>
@@ -37,11 +37,18 @@
         <li>Lentejas y arvejas</li><br>
         </details>
 </div>
-<div id="lista-ganaderia" class="subtitulos">
+<div id="listaGanaderia" class="subtitulos">
     <details><summary>Productos Ganaderos</summary>
     <li>Invernada</li><br>
     <li>Recria</li><br>
     <li>Novillos</li>
+    </details>
+</div>
+<div id="listaApicultura" class="subtitulos">
+    <details><summary>Productos Apicolas</summary>
+    <li>Miel al por mayor</li><br>
+    <li>Miel enfrascada</li><br>
+    <li>Jalea real</li>
     </details>
 </div>
 
@@ -54,11 +61,18 @@
 
 <label class="labelform">Apellido:<input class="cuadroDeTexto" type="text" name="apellido" /></label><br>
 
-<label class="labelform">Motivo<input class="cuadroDeTexto" type="text" name="motivo" /></label><br>
+<label class="labelform">Motivo<select class="cuadroDeTexto" aria-label=".form-select-lg example">
+    <option selected>Motivo de consulta</option>
+    <option value="1">Ganaderia</option>
+    <option value="2">Agricultura</option>
+    <option value="3">Apicultura</option>
+    <option value="4">Otros</option>
+  </select></label><br>
 
 <label class="labelform">Detalle<input class="cuadroDeTexto" type="text" name="detalle" /></label><br>
 
 <label><input id="botonEnvio" type="submit" value="Enviar"></label>
+
 
 </form>
 
