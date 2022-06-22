@@ -25,7 +25,10 @@
     
 </header>
 
-<body><div id="cabecera"><h2 class="titulos">Conoce nuestros productos</h2></div>
+<body>
+<div class="row" id="rowp">
+<div class="column" id="col1">
+    <div id="cabecera"><h2 class="titulos">Conoce nuestros productos</h2></div>
 <div id="listaProductos" class="subtitulos">
         <details><summary>Productos agricolas</summary>
         <li>Cebada</li><br>
@@ -52,7 +55,18 @@
     </details>
 </div>
 
-
+<script>
+    function confirmacion() {
+        let pregunta = confirm("¿Deseas volver a la página principal?")
+        if (pregunta){
+            alert("¡Gracias por contactarte con nosotros!")
+            window.location = "https://laventuraorganico.vercel.app/index.html";
+        }
+        else{
+            alert("Quizás en otro momento...\n ¡Gracias por contactarnos! ")
+        }
+    }
+</script>
 <form name="formulario" action="mmagadan@itba.edu.ar" method="post" enctype="text/plain"></form>
 <h2 class="titulos">Formulario de contacto</h2>
 
@@ -63,7 +77,7 @@
 
 <label class="labelform">Motivo<select class="cuadroDeTexto" aria-label=".form-select-lg example">
     <option selected>Motivo de consulta</option>
-    <option value="1">Ganaderia</option>
+    <option  value="1">Ganaderia</option>
     <option value="2">Agricultura</option>
     <option value="3">Apicultura</option>
     <option value="4">Otros</option>
@@ -71,10 +85,58 @@
 
 <label class="labelform">Detalle<input class="cuadroDeTexto" type="text" name="detalle" /></label><br>
 
-<label><input id="botonEnvio" type="submit" value="Enviar"></label>
-
+<input id="botonEnvio" type="button" value="Enviar" onclick="confirmacion()">
 
 </form>
+</div>
+<div class="column" id="colp2">
+    <div id="cuentaReg">
+        <h2 class="titulos">
+          Dias que nos faltan para ser una empresa Carbono 0 <br />
+          Nuestra huella de carbono será positiva en:</h2>
+    <div id="clock"></div>
+    </div>
+    <script> const getRemainingTime = (deadline) => {
+        let now = new Date(),
+          remainTime = (new Date(deadline) - now + 1000) / 1000,
+          remainSeconds = ("0" + Math.floor(remainTime % 60)).slice(-2),
+          remainMinutes = ("0" + Math.floor((remainTime / 60) % 60)).slice(-2),
+          remainHours = ("0" + Math.floor((remainTime / 3600) % 24)).slice(-2),
+          remainDays = Math.floor(remainTime / (3600 * 24));
+      
+        return {
+          remainSeconds,
+          remainMinutes,
+          remainHours,
+          remainDays,
+          remainTime,
+        };
+      };
+      
+      const countdown = (deadline, elem, finalMessage) => {
+        const el = document.getElementById(elem);
+      
+        const timerUpdate = setInterval(() => {
+          let t = getRemainingTime(deadline);
+          el.innerHTML = `${t.remainDays}D:${t.remainHours}H:${t.remainMinutes}M:${t.remainSeconds}s`;
+      
+          if (t.remainTime <= 1) {
+            clearInterval(timerUpdate);
+            el.innerHTML = finalMessage;
+          }
+        }, 1000);
+      };
+      
+      countdown("Nov 21 2023 07:00:00 GMT-0500", "clock", "¡Somos una empresa que captura carbono!");
+    </script>
+
+</div>  
+</div>   
+
+
+
+
+
 
 
 </body></html>

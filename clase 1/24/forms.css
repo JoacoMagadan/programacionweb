@@ -58,3 +58,30 @@ padding: 12px;
 margin: 2px;
 font-family: 'Open Sans', sans-serif;
       }
+#rowp {
+        content: "";
+        clear: both;
+        display: inline;
+      }
+#col1 {
+        float: left;
+        width: 50%;
+     ;
+      }
+#col2{
+        float: right;
+        ;
+      }
+#clock {color:#EFDED5;
+        font-size: 60px;
+        text-align: right;
+        margin: 2px;
+        margin-right: 150px;
+        font-family: 'Open Sans', sans-serif;
+
+      }
+#cuentaReg {
+        text-align: center;
+        font-size: 120%;
+        margin-bottom: 92px;
+      }
